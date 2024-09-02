@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right:  10%; ;
+}
+
+nav p {
+    color: black;
+    font-size: 1.3rem;
+}
+
+nav i {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+button {
+    height: 4vh;
+    width: 12vh;
+    font-size: 1.3rem;
+    color: #e7aa25;
+    background-color: #fff;
+    border: 2px solid  #e7aa25;
+    
+    box-shadow: #dd9804;
+}
+
+button i {
+    padding: 1vh;
+}
+
+
+.back-color-section {
+    display: flex;
+    justify-content: center ;
+    padding: 30px 40px 0px 40px;
+    background-color: #FBCE2B;
+    height: 75vh;
+    width: 100%;
+}
+
+.white-border{
+    background: #fff;
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.left-side-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.two-buttons{
+    display: flex;
+}
+#white-bike-button {
+    
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #F17228;
+    font-family: "Nunito Sans", sans-serif;
+    background: #F172281A;
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+}
+
+#input-box {
+    width: 35vh;
+    height: 4vh;
+    border: none;
+    outline: none;
+    background-color: #F172281A;
+}
+
+#white-job-button{
+    width: 16vh;
+    height: 4vh;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #F17228;
+    font-family: "Nunito Sans", sans-serif;
+    background: #F172281A;
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+    float: right;
+}
+
+.right-side-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    z-index: 1;
+}
+
+
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30vh;
+    background-color: #fff;
+}
+
+.card {
+    position: relative;
+    width: 290px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 30vh;
+    display: block;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.remaining-days {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+
+
+.how-it-works {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #fff5e1, #fdf3e2);
+}
+
+.how-it-works h2 {
+    font-size: 30px;
+    color: #f97316;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    text-align: center;
+    max-width: 200px;
+    margin-bottom: 40px;
+}
+
+ .icon {
+    
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+} 
+
+.icon img {
+    
+    width: 20vh;
+    height: 24vh;
+}
+
+.step h3 {
+    
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.step p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+
+
+
+.popular-items-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item-card {
+    
+    outline: none;
+    border: none;
+    
+    overflow: hidden;
+    width: 200px;
+    
+    text-align: center;
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+}
+
+.item-name {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.item-location {
+    font-size: 14px;
+    color: #ff9500;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.order-button {
+    background-color: #ff9500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #e08900;
+}
